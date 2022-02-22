@@ -1,0 +1,52 @@
+create package.json to store metadata like packages dependancies
+command:npm init -y;
+
+install express
+Command:npm i express;
+
+nodemon app.js to run the server
+server created in app.js
+
+
+middleware : use to authorise the user before loading the page 
+next(): function in middleware relaod the page after authentication or authorisation
+
+Mongodb data diectory:C:\Program Files\MongoDB\Server\5.0\data\
+log directory:C:\Program Files\MongoDB\Server\5.0\log\
+
+Database connection
+allow network to assess on anyywhere
+mongodb+srv://ashish:<password>@cluster0.twh2k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+in password use %27 at @
+
+How to generate env
+
+Database connection method
+1.Direct
+2.Using env
+3.Making conneccion in separete file and calling using require
+
+ "name":"ashish",
+    "email":"pappu@gmail.com",
+    "phone":987654443221,
+    "work":"software",
+    "password":"ashish",
+    "cpassword":"ashish"
+
+
+exporting module too have better view of code and Files
+
+
+post data with promises and async await
+
+
+password hashinh
+
+install bcrypt.js in server folder
+
+jwt authhentication
+install jsonwebtoken
+
+generate jwt roke and store in DB
+store token in cookies
+get token from cookie and verify user
